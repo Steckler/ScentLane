@@ -1,0 +1,38 @@
+
+body {
+	background-color: #724726;
+
+	/*
+	hintergrund einstellungen
+	fixed- bewegt sich nicht beim scrollen
+	no-repeat bei kleinem ev einfärbigen bild würde sich der Datenverbrauch senken
+	webkit für browser welche webkit unterstützen
+	moz - für mozilla
+	o für opera
+	*/
+	background: url(images/bodyback1.png) fixed no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+	-webkit-filter: blur(5px); 
+	-moz-filter: blur(5px); 
+	-o-filter: blur(5px); 
+	-ms-filter: blur(5px); 
+	filter: blur(5px);
+
+	/*
+	schriftdefinitionen von body
+	*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #524B4B;
+	}
+	
+	
+	
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #524B4B;

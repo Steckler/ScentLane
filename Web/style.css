@@ -1,0 +1,66 @@
+body {
+	
+
+	
+	}
+	
+.content{
+	/*
+	schriftdefinitionen von body
+	*/
+	width: 460px;
+	text-algin: center;
+	padding-top: 10px;
+	padding-right: 220px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	font-size: 12px;
+	}
+
+.background{
+	/*
+	hintergrund einstellungen
+	fixed- bewegt sich nicht beim scrollen
+	no-repeat bei kleinem ev einfärbigen bild würde sich der Datenverbrauch senken
+	webkit für browser welche webkit unterstützen
+	moz - für mozilla
+	o für opera
+	*/
+	background-color: #724726;
+	background: url(Images/bodyback.png) fixed no-repeat;
+
+	-webkit-filter: blur(5px); 
+	-moz-filter: blur(5px); 
+	-o-filter: blur(5px); 
+	-ms-filter: blur(5px); 
+	filter: blur(5px);
+	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#text {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+}
+	
+h1 {
+	color: #70562B;
+	font-size: 2em;
+}
+	
+h2 {
+	color: #A07B3E;
+	font-size: 1.2em;
+}
+
+p{
+	
+}
+
