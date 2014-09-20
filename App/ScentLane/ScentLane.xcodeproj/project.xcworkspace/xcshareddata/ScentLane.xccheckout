@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>046DBBAC-A647-4DE0-B748-64EE46EEF9AF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ScentLane</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E21058BB045B7AF1354FEB119FD64A8B9E20342D</key>
+		<string>https://github.com/Steckler/ScentLane.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>App/ScentLane/ScentLane.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E21058BB045B7AF1354FEB119FD64A8B9E20342D</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Steckler/ScentLane.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E21058BB045B7AF1354FEB119FD64A8B9E20342D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E21058BB045B7AF1354FEB119FD64A8B9E20342D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ScentLane</string>
+		</dict>
+	</array>
+</dict>
+</plist>
