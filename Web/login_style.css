@@ -2,8 +2,9 @@ body {
     overflow-x: hidden; 
     overflow-y: hidden;
 }
+
 bg {
-    height:1500px;
+    height:1000px;
     width:100%;
     text-align:center;
     background:url(Images/bodyback.png) fixed no-repeat ;
@@ -34,13 +35,13 @@ p{
 /* Position des Login Form/Container*/
 .container {
    /* wenn ma width ändert verschiebt sich der dialog in eine richtung.. wiso auch immer.. */
- 	width: 350px;
-    height: 250px;
-    position: relative;
-    vertical-align:middle;
-    margin: auto;
-    
-    
+  width: 350px;
+  height: 250px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
 }
  /* Login Balken oben */
 .login {
@@ -128,7 +129,7 @@ p{
   float: left;
   line-height: 31px;
 }
- /* Remember me Schriftart und Farbe*/
+ /* Remember me Schriftart und Farbe "Angemeldet bleiben" */
 .login p.remember_me label {
   font-size: 12px;
   color: #777;
@@ -222,7 +223,7 @@ display: inline-block;
 }
  
 input[type=radio] {
--webkit-border-radius: 2em; /* Make radios round */
+-webkit-border-radius: 2em ; /* Make radios round */
 }
  
 input[type=checkbox]:checked::after {
