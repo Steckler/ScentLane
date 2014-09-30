@@ -1,13 +1,12 @@
 //
 //  MenuViewController.m
-//  RevealControllerStoryboardExample
+//  ScentLane
 //
-//  Created by Nick Hodapp on 1/9/13.
-//  Copyright (c) 2013 CoDeveloper. All rights reserved.
+//  Created by Lukas Winkler on 18.09.14.
+//  Copyright (c) 2014 Steckler. All rights reserved.
 //
 
 #import "MenuViewController.h"
-#import "ColorViewController.h"
 #import "AccountViewController.h"
 #import "TrailListController.h"
 
@@ -19,10 +18,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor colorWithWhite:0.3f alpha:1.0f];
+    self.tableView.backgroundColor = [UIColor colorWithWhite:0.4f alpha:1.0f];
     
 }
 
 #pragma mark - Table view data source
+
+- (UIStatusBarStyle)preferredStatusBarStyle
+{
+    return UIStatusBarStyleLightContent;
+}
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {

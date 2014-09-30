@@ -12,6 +12,13 @@
 		01FB866E169E2D8B00A0A1A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FB866D169E2D8B00A0A1A8 /* CoreGraphics.framework */; };
 		01FB868F169E2DA500A0A1A8 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FB868E169E2DA500A0A1A8 /* SWRevealViewController.m */; };
 		01FB86B0169E42B600A0A1A8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FB86AF169E42B600A0A1A8 /* MapKit.framework */; };
+		35167AC819D41160002B75B8 /* ScentLane-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35167AC719D41160002B75B8 /* ScentLane-Info.plist */; };
+		35167ACB19D41DF2002B75B8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35167ACA19D41DF2002B75B8 /* CoreLocation.framework */; };
+		35167AD019D4243D002B75B8 /* point_marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 35167ACE19D4243D002B75B8 /* point_marker.png */; };
+		35167AD119D4243D002B75B8 /* point_marker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35167ACF19D4243D002B75B8 /* point_marker@2x.png */; };
+		351B70A019D59A7E002E9A90 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 351B709F19D59A7E002E9A90 /* LoginViewController.m */; };
+		351B70A219D5B6D0002E9A90 /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = 351B70A119D5B6D0002E9A90 /* black.png */; };
+		351B70A519D5B770002E9A90 /* BlurryShade.m in Sources */ = {isa = PBXBuildFile; fileRef = 351B70A419D5B770002E9A90 /* BlurryShade.m */; };
 		352DE3BE19CAF8E4006DD424 /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 352DE3BD19CAF8E4006DD424 /* AccountViewController.m */; };
 		35D447B319CB3E9B00533B6B /* TrailList.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D447B219CB3E9B00533B6B /* TrailList.m */; };
 		35D447B619CB403F00533B6B /* TrailItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D447B519CB403F00533B6B /* TrailItem.m */; };
@@ -23,7 +30,6 @@
 		4EE902351964A1DE00AA3B42 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE902321964A1DE00AA3B42 /* MapViewController.m */; };
 		4EE9023D1964A22200AA3B42 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4EE902371964A22200AA3B42 /* InfoPlist.strings */; };
 		4EE9023F1964A22200AA3B42 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EE9023B1964A22200AA3B42 /* MainStoryboard.storyboard */; };
-		4EE902421964A25D00AA3B42 /* ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE902401964A25D00AA3B42 /* ColorViewController.m */; };
 		4EE902451964A27600AA3B42 /* reveal-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EE902431964A27600AA3B42 /* reveal-icon@2x.png */; };
 		4EE902461964A27600AA3B42 /* reveal-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EE902441964A27600AA3B42 /* reveal-icon.png */; };
 		4EE9024A1964A28600AA3B42 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EE902471964A28600AA3B42 /* Default@2x.png */; };
@@ -40,6 +46,16 @@
 		01FB868D169E2DA500A0A1A8 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		01FB868E169E2DA500A0A1A8 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		01FB86AF169E42B600A0A1A8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		35167AC719D41160002B75B8 /* ScentLane-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "ScentLane-Info.plist"; path = "RevealControllerStoryboardExample2/ScentLane-Info.plist"; sourceTree = SOURCE_ROOT; };
+		35167AC919D4118B002B75B8 /* ScentLane-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ScentLane-Prefix.pch"; path = "RevealControllerStoryboardExample2/ScentLane-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		35167ACA19D41DF2002B75B8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		35167ACE19D4243D002B75B8 /* point_marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = point_marker.png; path = RevealControllerStoryboardExample2/point_marker.png; sourceTree = SOURCE_ROOT; };
+		35167ACF19D4243D002B75B8 /* point_marker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "point_marker@2x.png"; path = "RevealControllerStoryboardExample2/point_marker@2x.png"; sourceTree = SOURCE_ROOT; };
+		351B709E19D59A7E002E9A90 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = RevealControllerStoryboardExample2/LoginViewController.h; sourceTree = SOURCE_ROOT; };
+		351B709F19D59A7E002E9A90 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = RevealControllerStoryboardExample2/LoginViewController.m; sourceTree = SOURCE_ROOT; };
+		351B70A119D5B6D0002E9A90 /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = black.png; path = RevealControllerStoryboardExample2/black.png; sourceTree = SOURCE_ROOT; };
+		351B70A319D5B770002E9A90 /* BlurryShade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlurryShade.h; path = RevealControllerStoryboardExample2/BlurryShade.h; sourceTree = SOURCE_ROOT; };
+		351B70A419D5B770002E9A90 /* BlurryShade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BlurryShade.m; path = RevealControllerStoryboardExample2/BlurryShade.m; sourceTree = SOURCE_ROOT; };
 		352DE3BC19CAF8E4006DD424 /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccountViewController.h; path = RevealControllerStoryboardExample2/AccountViewController.h; sourceTree = SOURCE_ROOT; };
 		352DE3BD19CAF8E4006DD424 /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AccountViewController.m; path = RevealControllerStoryboardExample2/AccountViewController.m; sourceTree = SOURCE_ROOT; };
 		35D447B119CB3E9B00533B6B /* TrailList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrailList.h; path = RevealControllerStoryboardExample2/TrailList.h; sourceTree = SOURCE_ROOT; };
@@ -52,8 +68,6 @@
 		35D447E519CB525D00533B6B /* TrailListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrailListController.m; path = RevealControllerStoryboardExample2/TrailListController.m; sourceTree = SOURCE_ROOT; };
 		4EE9022A1964A14200AA3B42 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = RevealControllerStoryboardExample2/AppDelegate.m; sourceTree = SOURCE_ROOT; };
 		4EE9022B1964A14200AA3B42 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RevealControllerStoryboardExample2/AppDelegate.h; sourceTree = SOURCE_ROOT; };
-		4EE9022D1964A15800AA3B42 /* ScentLane-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ScentLane-Prefix.pch"; path = "../RevealControllerStoryboardExample2/ScentLane-Prefix.pch"; sourceTree = "<group>"; };
-		4EE9022E1964A15800AA3B42 /* ScentLane-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "ScentLane-Info.plist"; path = "../RevealControllerStoryboardExample2/ScentLane-Info.plist"; sourceTree = "<group>"; };
 		4EE902301964A1DE00AA3B42 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = RevealControllerStoryboardExample2/MenuViewController.m; sourceTree = SOURCE_ROOT; };
 		4EE902311964A1DE00AA3B42 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuViewController.h; path = RevealControllerStoryboardExample2/MenuViewController.h; sourceTree = SOURCE_ROOT; };
 		4EE902321964A1DE00AA3B42 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = RevealControllerStoryboardExample2/MapViewController.m; sourceTree = SOURCE_ROOT; };
@@ -61,8 +75,6 @@
 		4EE902381964A22200AA3B42 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 		4EE9023A1964A22200AA3B42 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = "MainStoryboard-iPad.storyboard"; sourceTree = "<group>"; };
 		4EE9023C1964A22200AA3B42 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
-		4EE902401964A25D00AA3B42 /* ColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorViewController.m; path = RevealControllerStoryboardExample2/ColorViewController.m; sourceTree = SOURCE_ROOT; };
-		4EE902411964A25D00AA3B42 /* ColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorViewController.h; path = RevealControllerStoryboardExample2/ColorViewController.h; sourceTree = SOURCE_ROOT; };
 		4EE902431964A27600AA3B42 /* reveal-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "reveal-icon@2x.png"; path = "RevealControllerStoryboardExample2/reveal-icon@2x.png"; sourceTree = SOURCE_ROOT; };
 		4EE902441964A27600AA3B42 /* reveal-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "reveal-icon.png"; path = "RevealControllerStoryboardExample2/reveal-icon.png"; sourceTree = SOURCE_ROOT; };
 		4EE902471964A28600AA3B42 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "RevealControllerStoryboardExample2/Default@2x.png"; sourceTree = SOURCE_ROOT; };
@@ -76,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35167ACB19D41DF2002B75B8 /* CoreLocation.framework in Frameworks */,
 				01FB86B0169E42B600A0A1A8 /* MapKit.framework in Frameworks */,
 				01FB866A169E2D8B00A0A1A8 /* UIKit.framework in Frameworks */,
 				01FB866C169E2D8B00A0A1A8 /* Foundation.framework in Frameworks */,
@@ -107,6 +120,7 @@
 		01FB8668169E2D8B00A0A1A8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				35167ACA19D41DF2002B75B8 /* CoreLocation.framework */,
 				01FB86AF169E42B600A0A1A8 /* MapKit.framework */,
 				01FB8669169E2D8B00A0A1A8 /* UIKit.framework */,
 				01FB866B169E2D8B00A0A1A8 /* Foundation.framework */,
@@ -122,15 +136,17 @@
 				4EE9022B1964A14200AA3B42 /* AppDelegate.h */,
 				4EE9022A1964A14200AA3B42 /* AppDelegate.m */,
 				4EE9023B1964A22200AA3B42 /* MainStoryboard.storyboard */,
+				4EE902391964A22200AA3B42 /* MainStoryboard-iPad.storyboard */,
+				351B709E19D59A7E002E9A90 /* LoginViewController.h */,
+				351B709F19D59A7E002E9A90 /* LoginViewController.m */,
+				351B70A319D5B770002E9A90 /* BlurryShade.h */,
+				351B70A419D5B770002E9A90 /* BlurryShade.m */,
 				35D447B419CB403F00533B6B /* TrailItem.h */,
 				35D447B519CB403F00533B6B /* TrailItem.m */,
-				4EE902391964A22200AA3B42 /* MainStoryboard-iPad.storyboard */,
 				4EE902311964A1DE00AA3B42 /* MenuViewController.h */,
 				4EE902301964A1DE00AA3B42 /* MenuViewController.m */,
 				4EE902331964A1DE00AA3B42 /* MapViewController.h */,
 				4EE902321964A1DE00AA3B42 /* MapViewController.m */,
-				4EE902411964A25D00AA3B42 /* ColorViewController.h */,
-				4EE902401964A25D00AA3B42 /* ColorViewController.m */,
 				352DE3BC19CAF8E4006DD424 /* AccountViewController.h */,
 				352DE3BD19CAF8E4006DD424 /* AccountViewController.m */,
 				35D447B119CB3E9B00533B6B /* TrailList.h */,
@@ -148,13 +164,16 @@
 		01FB8670169E2D8B00A0A1A8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4EE9022D1964A15800AA3B42 /* ScentLane-Prefix.pch */,
-				4EE9022E1964A15800AA3B42 /* ScentLane-Info.plist */,
+				35167AC919D4118B002B75B8 /* ScentLane-Prefix.pch */,
+				35167AC719D41160002B75B8 /* ScentLane-Info.plist */,
 				4EE902431964A27600AA3B42 /* reveal-icon@2x.png */,
 				4EE902441964A27600AA3B42 /* reveal-icon.png */,
 				4EE902471964A28600AA3B42 /* Default@2x.png */,
 				4EE902481964A28600AA3B42 /* Default.png */,
 				4EE902491964A28600AA3B42 /* Default-568h@2x.png */,
+				35167ACE19D4243D002B75B8 /* point_marker.png */,
+				35167ACF19D4243D002B75B8 /* point_marker@2x.png */,
+				351B70A119D5B6D0002E9A90 /* black.png */,
 				4EE9024D1964A29300AA3B42 /* main.m */,
 				4EE902371964A22200AA3B42 /* InfoPlist.strings */,
 			);
@@ -236,9 +255,13 @@
 			files = (
 				4EE9024B1964A28600AA3B42 /* Default.png in Resources */,
 				4EE902461964A27600AA3B42 /* reveal-icon.png in Resources */,
+				35167AC819D41160002B75B8 /* ScentLane-Info.plist in Resources */,
 				4EE9024C1964A28600AA3B42 /* Default-568h@2x.png in Resources */,
 				4EE9023F1964A22200AA3B42 /* MainStoryboard.storyboard in Resources */,
+				351B70A219D5B6D0002E9A90 /* black.png in Resources */,
 				4EE902451964A27600AA3B42 /* reveal-icon@2x.png in Resources */,
+				35167AD119D4243D002B75B8 /* point_marker@2x.png in Resources */,
+				35167AD019D4243D002B75B8 /* point_marker.png in Resources */,
 				4EE9024A1964A28600AA3B42 /* Default@2x.png in Resources */,
 				4E00E29719659277007CA70B /* MainStoryboard-iPad.storyboard in Resources */,
 				4EE9023D1964A22200AA3B42 /* InfoPlist.strings in Resources */,
@@ -252,14 +275,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				351B70A519D5B770002E9A90 /* BlurryShade.m in Sources */,
 				35D447E319CB510100533B6B /* AddTrailItem.m in Sources */,
+				351B70A019D59A7E002E9A90 /* LoginViewController.m in Sources */,
 				35D447E619CB525D00533B6B /* TrailListController.m in Sources */,
 				01FB868F169E2DA500A0A1A8 /* SWRevealViewController.m in Sources */,
 				4EE902351964A1DE00AA3B42 /* MapViewController.m in Sources */,
 				35D447B319CB3E9B00533B6B /* TrailList.m in Sources */,
 				352DE3BE19CAF8E4006DD424 /* AccountViewController.m in Sources */,
 				4EE902341964A1DE00AA3B42 /* MenuViewController.m in Sources */,
-				4EE902421964A25D00AA3B42 /* ColorViewController.m in Sources */,
 				4EE9024E1964A29300AA3B42 /* main.m in Sources */,
 				4EE9022C1964A14200AA3B42 /* AppDelegate.m in Sources */,
 				35D447B619CB403F00533B6B /* TrailItem.m in Sources */,

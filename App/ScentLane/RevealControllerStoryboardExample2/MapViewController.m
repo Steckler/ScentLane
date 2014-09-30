@@ -1,10 +1,11 @@
 //
 //  MapViewController.m
-//  RevealControllerStoryboardExample
+//  ScentLane
 //
-//  Created by Nick Hodapp on 1/9/13.
-//  Copyright (c) 2013 CoDeveloper. All rights reserved.
-//
+//  Created by Lukas Winkler on 18.09.14.
+//  Copyright (c) 2014 Steckler. All rights reserved.
+
+#define IS_OS_8_OR_LATER ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
 
 #import "MapViewController.h"
 
@@ -14,11 +15,16 @@
 
 @implementation MapViewController
 
+@synthesize mapView=_mapView;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     [self customSetup];
+    _mapView.showsUserLocation = YES;
+
 }
+
 
 - (void)customSetup
 {
@@ -30,6 +36,16 @@
         [self.navigationController.navigationBar addGestureRecognizer: self.revealViewController.panGestureRecognizer];
     }
 }
+
+- (IBAction)zoomIn:(id)sender {
+    MKUserLocation *userLocation = _mapView.userLocation;
+    MKCoordinateRegion region =
+    MKCoordinateRegionMakeWithDistance (
+                                        userLocation.location.coordinate, 20000, 20000);
+    [_mapView setRegion:region animated:YES];
+}
+
+
 
 #pragma mark state preservation / restoration
 
