@@ -71,6 +71,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <state key="normal" title="Login">
+                                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
@@ -80,7 +81,7 @@
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="HkB-2L-ai3">
                                         <rect key="frame" x="230" y="186" width="51" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="onTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="onTintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="thumbTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     </switch>
                                 </subviews>
@@ -140,8 +141,11 @@
                     </mapView>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Map" id="3AA-T3-Oi6">
-                        <barButtonItem key="leftBarButtonItem" image="reveal-icon.png" style="plain" id="0Cm-Ub-RIS"/>
+                        <barButtonItem key="leftBarButtonItem" image="reveal-icon.png" style="plain" id="0Cm-Ub-RIS">
+                            <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" image="point_marker.png" style="plain" id="5eI-Ks-Q0T">
+                            <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <action selector="zoomIn:" destination="IHS-Te-pvE" id="jQu-Ut-OUK"/>
                             </connections>
@@ -177,11 +181,13 @@
                     </view>
                     <navigationItem key="navigationItem" title="Add Trail" id="ip3-R0-5DK">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="41x-tT-8rX">
+                            <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <segue destination="ZPn-1S-voP" kind="unwind" unwindAction="unwindToList:" id="7FT-9y-rSu"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="done" id="wh2-Pi-bzl">
+                            <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <segue destination="ZPn-1S-voP" kind="unwind" unwindAction="unwindToList:" id="7pS-8J-YgL"/>
                             </connections>
@@ -378,7 +384,9 @@
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Manage Account" id="asm-Ah-pzb">
-                        <barButtonItem key="leftBarButtonItem" image="reveal-icon.png" style="plain" id="Gfd-8j-3bm"/>
+                        <barButtonItem key="leftBarButtonItem" image="reveal-icon.png" style="plain" id="Gfd-8j-3bm">
+                            <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
@@ -413,8 +421,11 @@
                     </tableView>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Trails" id="mQB-8z-tKY">
-                        <barButtonItem key="leftBarButtonItem" image="reveal-icon.png" style="plain" id="Ybr-vL-Z7X"/>
+                        <barButtonItem key="leftBarButtonItem" image="reveal-icon.png" style="plain" id="Ybr-vL-Z7X">
+                            <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="PfL-wt-7YC">
+                            <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <segue destination="Z2l-fk-wVJ" kind="push" id="Uic-FM-Kmb"/>
                             </connections>

@@ -20,6 +20,7 @@
 		351B70A219D5B6D0002E9A90 /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = 351B70A119D5B6D0002E9A90 /* black.png */; };
 		351B70A519D5B770002E9A90 /* BlurryShade.m in Sources */ = {isa = PBXBuildFile; fileRef = 351B70A419D5B770002E9A90 /* BlurryShade.m */; };
 		352DE3BE19CAF8E4006DD424 /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 352DE3BD19CAF8E4006DD424 /* AccountViewController.m */; };
+		35B6C55C19DAF54600340B9D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35B6C55B19DAF54600340B9D /* Images.xcassets */; };
 		35D447B319CB3E9B00533B6B /* TrailList.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D447B219CB3E9B00533B6B /* TrailList.m */; };
 		35D447B619CB403F00533B6B /* TrailItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D447B519CB403F00533B6B /* TrailItem.m */; };
 		35D447E319CB510100533B6B /* AddTrailItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D447E219CB510100533B6B /* AddTrailItem.m */; };
@@ -58,6 +59,7 @@
 		351B70A419D5B770002E9A90 /* BlurryShade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BlurryShade.m; path = RevealControllerStoryboardExample2/BlurryShade.m; sourceTree = SOURCE_ROOT; };
 		352DE3BC19CAF8E4006DD424 /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccountViewController.h; path = RevealControllerStoryboardExample2/AccountViewController.h; sourceTree = SOURCE_ROOT; };
 		352DE3BD19CAF8E4006DD424 /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AccountViewController.m; path = RevealControllerStoryboardExample2/AccountViewController.m; sourceTree = SOURCE_ROOT; };
+		35B6C55B19DAF54600340B9D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ScentLane/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		35D447B119CB3E9B00533B6B /* TrailList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrailList.h; path = RevealControllerStoryboardExample2/TrailList.h; sourceTree = SOURCE_ROOT; };
 		35D447B219CB3E9B00533B6B /* TrailList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrailList.m; path = RevealControllerStoryboardExample2/TrailList.m; sourceTree = SOURCE_ROOT; };
 		35D447B419CB403F00533B6B /* TrailItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrailItem.h; path = RevealControllerStoryboardExample2/TrailItem.h; sourceTree = SOURCE_ROOT; };
@@ -155,6 +157,7 @@
 				35D447B219CB3E9B00533B6B /* TrailList.m */,
 				35D447E119CB510100533B6B /* AddTrailItem.h */,
 				35D447E219CB510100533B6B /* AddTrailItem.m */,
+				35B6C55B19DAF54600340B9D /* Images.xcassets */,
 				01FB8670169E2D8B00A0A1A8 /* Supporting Files */,
 			);
 			name = ScentLane;
@@ -256,6 +259,7 @@
 				4EE9024B1964A28600AA3B42 /* Default.png in Resources */,
 				4EE902461964A27600AA3B42 /* reveal-icon.png in Resources */,
 				35167AC819D41160002B75B8 /* ScentLane-Info.plist in Resources */,
+				35B6C55C19DAF54600340B9D /* Images.xcassets in Resources */,
 				4EE9024C1964A28600AA3B42 /* Default-568h@2x.png in Resources */,
 				4EE9023F1964A22200AA3B42 /* MainStoryboard.storyboard in Resources */,
 				351B70A219D5B6D0002E9A90 /* black.png in Resources */,
@@ -376,6 +380,8 @@
 		01FB868A169E2D8B00A0A1A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RevealControllerStoryboardExample2/ScentLane-Prefix.pch";
@@ -389,6 +395,8 @@
 		01FB868B169E2D8B00A0A1A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RevealControllerStoryboardExample2/ScentLane-Prefix.pch";
