@@ -224,7 +224,7 @@
 		01FB865C169E2D8B00A0A1A8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = Steckler;
 				TargetAttributes = {
 					01FB8664169E2D8B00A0A1A8 = {
@@ -254,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				3556234C19DC1E9F003CCA88 /* black.png in Resources */,
 				3556234319DC1E82003CCA88 /* point_marker.png in Resources */,
 				358FBB8819DC1E2F006CAC22 /* MainStoryboard-iPad.storyboard in Resources */,
@@ -264,6 +265,10 @@
 				3556235219DC1EBD003CCA88 /* reveal-icon@2x.png in Resources */,
 				3556233E19DC1E68003CCA88 /* InfoPlist.strings in Resources */,
 				3556234019DC1E70003CCA88 /* ScentLane-Info.plist in Resources */,
+=======
+				4EE9024B1964A28600AA3B42 /* Default.png in Resources */,
+				4EE902461964A27600AA3B42 /* reveal-icon.png in Resources */,
+>>>>>>> FETCH_HEAD
 				35B6C55C19DAF54600340B9D /* Images.xcassets in Resources */,
 				358FBB8919DC1E2F006CAC22 /* MainStoryboard.storyboard in Resources */,
 				3556235119DC1EBD003CCA88 /* reveal-icon.png in Resources */,

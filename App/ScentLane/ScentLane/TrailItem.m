@@ -8,7 +8,7 @@
 
 #import "TrailItem.h"
 
-@implementation NSObject (TrailItem)
+//@implementation NSObject (TrailItem)
 
 
-@end
+//@end
