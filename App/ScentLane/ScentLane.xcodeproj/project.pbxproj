@@ -12,7 +12,6 @@
 		01FB866E169E2D8B00A0A1A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FB866D169E2D8B00A0A1A8 /* CoreGraphics.framework */; };
 		01FB868F169E2DA500A0A1A8 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FB868E169E2DA500A0A1A8 /* SWRevealViewController.m */; };
 		01FB86B0169E42B600A0A1A8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FB86AF169E42B600A0A1A8 /* MapKit.framework */; };
-		35167AC819D41160002B75B8 /* ScentLane-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35167AC719D41160002B75B8 /* ScentLane-Info.plist */; };
 		35167ACB19D41DF2002B75B8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35167ACA19D41DF2002B75B8 /* CoreLocation.framework */; };
 		35167AD019D4243D002B75B8 /* point_marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 35167ACE19D4243D002B75B8 /* point_marker.png */; };
 		35167AD119D4243D002B75B8 /* point_marker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 35167ACF19D4243D002B75B8 /* point_marker@2x.png */; };
@@ -226,7 +225,7 @@
 		01FB865C169E2D8B00A0A1A8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = Steckler;
 				TargetAttributes = {
 					01FB8664169E2D8B00A0A1A8 = {
@@ -258,7 +257,6 @@
 			files = (
 				4EE9024B1964A28600AA3B42 /* Default.png in Resources */,
 				4EE902461964A27600AA3B42 /* reveal-icon.png in Resources */,
-				35167AC819D41160002B75B8 /* ScentLane-Info.plist in Resources */,
 				35B6C55C19DAF54600340B9D /* Images.xcassets in Resources */,
 				4EE9024C1964A28600AA3B42 /* Default-568h@2x.png in Resources */,
 				4EE9023F1964A22200AA3B42 /* MainStoryboard.storyboard in Resources */,
