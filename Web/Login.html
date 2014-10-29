@@ -9,16 +9,27 @@
 </head>
 <body>
 
-	<div id="formContainer">
-		<form id="login" method="post" action="./">
-		
-		
+	
+		<div id="loginView" method="post" action="./">
+            
 			<input type="user" name="loginEmail" id="loginEmail" placeholder="Email" />
-			<p><input type="password" name="loginPass" id="loginPass" placeholder="Passwort" /></p>
+			<input type="password" name="loginPass" id="loginPass" placeholder="Passwort" />
 			<input type="submit" name="submit" value="" />
-		</form>
+            
+		</div>
 		
-	</div>
+<?php
+    // Aufbau der Verbindung zum Datenbank-Server
+        $username = $_POST['loginEmail'];
+        $password = crypt($_POST['loginPass'];
+        mysql_connect("localhost", "scentlane", "$username", "$password");
+	// Auswahl der Datenbank
+        mysql_select_db("scentlane");
+    // Abfrage der Daten
+    //    $result = mysql_query("SELECT typ from scentlane");
+    // Beenden der Verbindung
+        mysql_close();
+?>
 
 	<bg> 
 	</bg>
@@ -26,7 +37,9 @@
 		<!-- JavaScript includes -->
 		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 		<script src="assets/js/script.js"></script>
-
+    <div id="footerRight"> ScentLane. Alle Rechte vorbehalten</div>
+    <div id="footerLeft"><img src="Images/IconWallpaper.gif" alt="ScentLane" width="30px" height="20px"></div>
+    <div id="headerLeft">ScentLane</div>
 </body>
 
 </html>

@@ -1,0 +1,113 @@
+body {
+    overflow-x: hidden; 
+    overflow-y: hidden;
+}
+
+bg {
+    height:100%;
+    width:100%;
+    text-align:center;
+    background:url(Images/bodyback.png) fixed no-repeat ;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    z-index: -1;
+    -webkit-filter: blur(7px);
+    -moz-filter: blur(7px);
+    -o-filter: blur(7px);
+    -ms-filter: blur(7px);
+    filter: blur(7px);
+    position: absolute;
+    left:0px;
+    bottom: 0px;
+    top: 0px;
+}
+/* No-blur damit es leserlich bleibt */
+p{
+	-webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+    filter: blur(0px);
+}
+
+/* Schrift größe der Anmeldedaten*/
+input {
+  font-family: 'Lucida Grande', Tahoma, Verdana, sans-serif;
+  font-size: 14px;
+}
+ /* Design der Eingabefelder */
+ input[type=user]{
+	 margin-left: 13%;
+	 margin-top: 52%;
+	 margin-bottom: 0px;
+	 background: white;
+	 border:none;	 
+	 width: 75%;
+	 height: 25px;
+	 color: #647882;
+ }
+ input[type=password] {
+  	margin-left: 13%;
+  	margin-top: 20px;
+  	background: white;
+  	border:none;
+  	width: 65%;
+  	height: 25px;
+  	color: #647882;
+}
+input[type=submit] {
+  background: url(Images/arrow.gif);
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 35px;
+  border-color: #ffffff;
+  outline-color: #ffffff;
+}
+ /* Blauer Rand beim Anklicken der Eingabefeler */
+input[type=user]:focus, input[type=password]:focus {
+  border-color: #ffffff;
+  outline-color: #ffffff;
+
+}
+ /* Animation wenn Login Button gedrückt wird*/
+input[type=submit]:active {
+  background: url(Images/arrow.gif);
+  border-color: #9eb9c2 #b3c0c8 #b4ccce;
+  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+#loginView{
+	background-image: url(Images/backgroundlogin.gif);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -200px;
+}
+#footerRight {
+    position:fixed;
+    bottom:5px;
+    right: 5px;
+    font-family: 'Lucida Grande', Tahoma, Verdana, sans-serif;
+    font-size: 14px;
+    color: #e1e9ed;
+}
+#footerLeft{
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+}
+#headerLeft{
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    color: #e1e9ed;
+    font-family: 'Lucida Grande', Tahoma, Verdana, sans-serif;
+    font-size: 20px;
+}

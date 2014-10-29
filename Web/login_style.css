@@ -39,89 +39,77 @@ input {
 }
  /* Design der Eingabefelder */
  input[type=user]{
-	 margin: 7%;
-	 margin-top: 28%;
+	 margin-left: 13%;
+	 margin-top: 52%;
 	 margin-bottom: 0px;
 	 background: white;
 	 border:none;	 
-	 width: 41%;
-	 height: 30px;
+	 width: 75%;
+	 height: 25px;
 	 color: #647882;
  }
-
  input[type=password] {
-  	margin: 7%;
-  	margin-top: 0px;
+  	margin-left: 13%;
+  	margin-top: 20px;
   	background: white;
   	border:none;
-  	width: 41%;
-  	height: 30px;
+  	width: 65%;
+  	height: 25px;
   	color: #647882;
-  		
 }
-
+input[type=submit] {
+  background: url(Images/arrow.gif);
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 35px;
+  border-color: #ffffff;
+  outline-color: #ffffff;
+}
  /* Blauer Rand beim Anklicken der Eingabefeler */
 input[type=user]:focus, input[type=password]:focus {
   border-color: #ffffff;
   outline-color: #ffffff;
-  color: black;
-}
- /* Login Button, padding, höhe, schatten, farbe */
-input[type=submit] {
-  
-  background: url(Images/arrow.gif) no-repeat;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
+
 }
  /* Animation wenn Login Button gedrückt wird*/
 input[type=submit]:active {
-  background: #cde5ef;
+  background: url(Images/arrow.gif);
   border-color: #9eb9c2 #b3c0c8 #b4ccce;
   -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
   box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
 }
 
-/* -------------------------------------- */
-#formContainer{
-	background-image: url(Images/backgroundlogin.gif) fixed no-repeat;
-	width:100%;
-	height:100%;
-	position:fixed;
+#loginView{
+	background-image: url(Images/backgroundlogin.gif);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 400px;
+    width: 400px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-
+    margin-top: -200px;
+    margin-left: -200px;
+}
+#footerRight {
+    position:fixed;
+    bottom:5px;
+    right: 5px;
+    font-family: 'Lucida Grande', Tahoma, Verdana, sans-serif;
+    font-size: 14px;
+    color: #e1e9ed;
+}
+#footerLeft{
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+}
+#headerLeft{
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    color: #e1e9ed;
+    font-family: 'Lucida Grande', Tahoma, Verdana, sans-serif;
+    font-size: 20px;
 }
 
-#login{
-	background:url(Images/backgroundlogin.gif) no-repeat;
-	z-index:0;
-	height: 100%;
-	width: 100%;
-}
-
-#loginPass{
-	top: 215px;
-}
-
-
-padding: 2% 2%;
-  height: 29px;
-  font-size: 12px;
-  font-weight: bold;
-  color: #527881;
-  text-shadow: 0 1px #e3f1f1;
-  background: #cde5ef;
-  border: 1px solid;
-  border-color: #b4ccce #b3c0c8 #9eb9c2;
-  border-radius: 16px;
-  outline: 0;
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  background-image: -webkit-linear-gradient(top, #edf5f8 0%, #cde5ef 100%);
-  background-image: -moz-linear-gradient(top, #edf5f8 0%, #cde5ef 100%);
-  background-image: -o-linear-gradient(top, #edf5f8 0%, #cde5ef 100%);
-  background-image: linear-gradient(to bottom, #edf5f8 0%, #cde5ef 100%);
-  -webkit-box-shadow: inset 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.15);
+/* opacity transpartenz */
