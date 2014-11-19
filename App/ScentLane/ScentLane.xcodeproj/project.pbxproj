@@ -12,28 +12,32 @@
 		01FB866E169E2D8B00A0A1A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FB866D169E2D8B00A0A1A8 /* CoreGraphics.framework */; };
 		01FB868F169E2DA500A0A1A8 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FB868E169E2DA500A0A1A8 /* SWRevealViewController.m */; };
 		01FB86B0169E42B600A0A1A8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01FB86AF169E42B600A0A1A8 /* MapKit.framework */; };
+		3500D1F119F800A700F74ABC /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3500D1F019F800A700F74ABC /* StartViewController.m */; };
+		3506166719DC401C00D65938 /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = 3506166619DC401C00D65938 /* black.png */; };
+		3506166B19DC403200D65938 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3506166A19DC403200D65938 /* main.m */; };
+		3506166E19DC404800D65938 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3506166C19DC404800D65938 /* InfoPlist.strings */; };
+		350AB8BD19F51F4A001938F6 /* WeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 350AB8BC19F51F4A001938F6 /* WeatherViewController.m */; };
 		35167ACB19D41DF2002B75B8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35167ACA19D41DF2002B75B8 /* CoreLocation.framework */; };
-		3556233E19DC1E68003CCA88 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3556233C19DC1E68003CCA88 /* InfoPlist.strings */; };
-		3556234019DC1E70003CCA88 /* ScentLane-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3556233F19DC1E70003CCA88 /* ScentLane-Info.plist */; };
-		3556234319DC1E82003CCA88 /* point_marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 3556234119DC1E82003CCA88 /* point_marker.png */; };
-		3556234419DC1E82003CCA88 /* point_marker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3556234219DC1E82003CCA88 /* point_marker@2x.png */; };
-		3556234819DC1E94003CCA88 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3556234519DC1E94003CCA88 /* default.png */; };
-		3556234919DC1E94003CCA88 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3556234619DC1E94003CCA88 /* Default-568h@2x.png */; };
-		3556234A19DC1E94003CCA88 /* default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3556234719DC1E94003CCA88 /* default@2x.png */; };
-		3556234C19DC1E9F003CCA88 /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = 3556234B19DC1E9F003CCA88 /* black.png */; };
-		3556234E19DC1EA9003CCA88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3556234D19DC1EA9003CCA88 /* main.m */; };
-		3556235119DC1EBD003CCA88 /* reveal-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3556234F19DC1EBD003CCA88 /* reveal-icon.png */; };
-		3556235219DC1EBD003CCA88 /* reveal-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3556235019DC1EBD003CCA88 /* reveal-icon@2x.png */; };
-		358FBB6819DC1D6F006CAC22 /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 358FBB6719DC1D6F006CAC22 /* AccountViewController.m */; };
-		358FBB7519DC1D83006CAC22 /* AddTrailItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = 358FBB6A19DC1D83006CAC22 /* AddTrailItemController.m */; };
-		358FBB7619DC1D83006CAC22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 358FBB6C19DC1D83006CAC22 /* AppDelegate.m */; };
-		358FBB7819DC1D83006CAC22 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 358FBB7019DC1D83006CAC22 /* LoginViewController.m */; };
-		358FBB7919DC1D83006CAC22 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 358FBB7219DC1D83006CAC22 /* MapViewController.m */; };
-		358FBB7A19DC1D83006CAC22 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 358FBB7419DC1D83006CAC22 /* MenuViewController.m */; };
-		358FBB8119DC1DBB006CAC22 /* TrailItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 358FBB7C19DC1DBB006CAC22 /* TrailItem.m */; };
-		358FBB8319DC1DBB006CAC22 /* TrailListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 358FBB8019DC1DBB006CAC22 /* TrailListController.m */; };
-		358FBB8819DC1E2F006CAC22 /* MainStoryboard-iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 358FBB8419DC1E2F006CAC22 /* MainStoryboard-iPad.storyboard */; };
-		358FBB8919DC1E2F006CAC22 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 358FBB8619DC1E2F006CAC22 /* MainStoryboard.storyboard */; };
+		3530F84019DC3F6300450A09 /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3530F82D19DC3F6300450A09 /* AccountViewController.m */; };
+		3530F84119DC3F6300450A09 /* AddTrailItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3530F82F19DC3F6300450A09 /* AddTrailItemController.m */; };
+		3530F84219DC3F6300450A09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3530F83119DC3F6300450A09 /* AppDelegate.m */; };
+		3530F84419DC3F6300450A09 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3530F83519DC3F6300450A09 /* LoginViewController.m */; };
+		3530F84519DC3F6300450A09 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3530F83719DC3F6300450A09 /* MapViewController.m */; };
+		3530F84619DC3F6300450A09 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3530F83919DC3F6300450A09 /* MenuViewController.m */; };
+		3530F84719DC3F6300450A09 /* TrailItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3530F83B19DC3F6300450A09 /* TrailItem.m */; };
+		3530F84919DC3F6300450A09 /* TrailListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3530F83F19DC3F6300450A09 /* TrailListController.m */; };
+		3530F84E19DC3FAB00450A09 /* MainStoryboard-iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3530F84A19DC3FAB00450A09 /* MainStoryboard-iPad.storyboard */; };
+		3530F84F19DC3FAB00450A09 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3530F84C19DC3FAB00450A09 /* MainStoryboard.storyboard */; };
+		3530F85319DC3FC600450A09 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3530F85019DC3FC600450A09 /* default.png */; };
+		3530F85419DC3FC600450A09 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3530F85119DC3FC600450A09 /* Default-568h@2x.png */; };
+		3530F85519DC3FC600450A09 /* default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3530F85219DC3FC600450A09 /* default@2x.png */; };
+		3530F85A19DC3FD600450A09 /* point_marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 3530F85619DC3FD600450A09 /* point_marker.png */; };
+		3530F85B19DC3FD600450A09 /* point_marker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3530F85719DC3FD600450A09 /* point_marker@2x.png */; };
+		3530F85C19DC3FD600450A09 /* reveal-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3530F85819DC3FD600450A09 /* reveal-icon.png */; };
+		3530F85D19DC3FD600450A09 /* reveal-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3530F85919DC3FD600450A09 /* reveal-icon@2x.png */; };
+		3563AFC919EEA026008E02ED /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3563AFC819EEA026008E02ED /* arrow.png */; };
+		3563AFCB19EEA04B008E02ED /* backgroundlogin.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3563AFCA19EEA04B008E02ED /* backgroundlogin.gif */; };
+		3563AFCD19EECAE0008E02ED /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3563AFCC19EECAE0008E02ED /* FacebookSDK.framework */; };
 		35B6C55C19DAF54600340B9D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35B6C55B19DAF54600340B9D /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -45,37 +49,44 @@
 		01FB868D169E2DA500A0A1A8 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		01FB868E169E2DA500A0A1A8 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		01FB86AF169E42B600A0A1A8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3500D1EF19F800A700F74ABC /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StartViewController.h; path = ScentLane/StartViewController.h; sourceTree = SOURCE_ROOT; };
+		3500D1F019F800A700F74ABC /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StartViewController.m; path = ScentLane/StartViewController.m; sourceTree = SOURCE_ROOT; };
+		3506166619DC401C00D65938 /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = black.png; path = ScentLane/black.png; sourceTree = SOURCE_ROOT; };
+		3506166819DC402700D65938 /* ScentLane-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "ScentLane-Info.plist"; path = "ScentLane/ScentLane-Info.plist"; sourceTree = SOURCE_ROOT; };
+		3506166A19DC403200D65938 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ScentLane/main.m; sourceTree = SOURCE_ROOT; };
+		3506166D19DC404800D65938 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = ScentLane/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		350AB8BB19F51F4A001938F6 /* WeatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeatherViewController.h; path = ScentLane/WeatherViewController.h; sourceTree = SOURCE_ROOT; };
+		350AB8BC19F51F4A001938F6 /* WeatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeatherViewController.m; path = ScentLane/WeatherViewController.m; sourceTree = SOURCE_ROOT; };
 		35167ACA19D41DF2002B75B8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		3556233B19DC1E51003CCA88 /* ScentLane-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ScentLane-Prefix.pch"; path = "ScentLane/ScentLane-Prefix.pch"; sourceTree = SOURCE_ROOT; };
-		3556233D19DC1E68003CCA88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = ScentLane/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
-		3556233F19DC1E70003CCA88 /* ScentLane-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "ScentLane-Info.plist"; path = "ScentLane/ScentLane-Info.plist"; sourceTree = SOURCE_ROOT; };
-		3556234119DC1E82003CCA88 /* point_marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = point_marker.png; path = ScentLane/point_marker.png; sourceTree = SOURCE_ROOT; };
-		3556234219DC1E82003CCA88 /* point_marker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "point_marker@2x.png"; path = "ScentLane/point_marker@2x.png"; sourceTree = SOURCE_ROOT; };
-		3556234519DC1E94003CCA88 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default.png; path = ScentLane/default.png; sourceTree = SOURCE_ROOT; };
-		3556234619DC1E94003CCA88 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "ScentLane/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
-		3556234719DC1E94003CCA88 /* default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "default@2x.png"; path = "ScentLane/default@2x.png"; sourceTree = SOURCE_ROOT; };
-		3556234B19DC1E9F003CCA88 /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = black.png; path = ScentLane/black.png; sourceTree = SOURCE_ROOT; };
-		3556234D19DC1EA9003CCA88 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ScentLane/main.m; sourceTree = SOURCE_ROOT; };
-		3556234F19DC1EBD003CCA88 /* reveal-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "reveal-icon.png"; path = "ScentLane/reveal-icon.png"; sourceTree = SOURCE_ROOT; };
-		3556235019DC1EBD003CCA88 /* reveal-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "reveal-icon@2x.png"; path = "ScentLane/reveal-icon@2x.png"; sourceTree = SOURCE_ROOT; };
-		358FBB6619DC1D6F006CAC22 /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccountViewController.h; path = ScentLane/AccountViewController.h; sourceTree = SOURCE_ROOT; };
-		358FBB6719DC1D6F006CAC22 /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AccountViewController.m; path = ScentLane/AccountViewController.m; sourceTree = SOURCE_ROOT; };
-		358FBB6919DC1D83006CAC22 /* AddTrailItemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddTrailItemController.h; path = ScentLane/AddTrailItemController.h; sourceTree = SOURCE_ROOT; };
-		358FBB6A19DC1D83006CAC22 /* AddTrailItemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddTrailItemController.m; path = ScentLane/AddTrailItemController.m; sourceTree = SOURCE_ROOT; };
-		358FBB6B19DC1D83006CAC22 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ScentLane/AppDelegate.h; sourceTree = SOURCE_ROOT; };
-		358FBB6C19DC1D83006CAC22 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ScentLane/AppDelegate.m; sourceTree = SOURCE_ROOT; };
-		358FBB6F19DC1D83006CAC22 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ScentLane/LoginViewController.h; sourceTree = SOURCE_ROOT; };
-		358FBB7019DC1D83006CAC22 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ScentLane/LoginViewController.m; sourceTree = SOURCE_ROOT; };
-		358FBB7119DC1D83006CAC22 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = ScentLane/MapViewController.h; sourceTree = SOURCE_ROOT; };
-		358FBB7219DC1D83006CAC22 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = ScentLane/MapViewController.m; sourceTree = SOURCE_ROOT; };
-		358FBB7319DC1D83006CAC22 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuViewController.h; path = ScentLane/MenuViewController.h; sourceTree = SOURCE_ROOT; };
-		358FBB7419DC1D83006CAC22 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = ScentLane/MenuViewController.m; sourceTree = SOURCE_ROOT; };
-		358FBB7B19DC1DBB006CAC22 /* TrailItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrailItem.h; path = ScentLane/TrailItem.h; sourceTree = SOURCE_ROOT; };
-		358FBB7C19DC1DBB006CAC22 /* TrailItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrailItem.m; path = ScentLane/TrailItem.m; sourceTree = SOURCE_ROOT; };
-		358FBB7F19DC1DBB006CAC22 /* TrailListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrailListController.h; path = ScentLane/TrailListController.h; sourceTree = SOURCE_ROOT; };
-		358FBB8019DC1DBB006CAC22 /* TrailListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrailListController.m; path = ScentLane/TrailListController.m; sourceTree = SOURCE_ROOT; };
-		358FBB8519DC1E2F006CAC22 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = "ScentLane/en.lproj/MainStoryboard-iPad.storyboard"; sourceTree = SOURCE_ROOT; };
-		358FBB8719DC1E2F006CAC22 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = ScentLane/en.lproj/MainStoryboard.storyboard; sourceTree = SOURCE_ROOT; };
+		3530F82C19DC3F6300450A09 /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccountViewController.h; path = ScentLane/AccountViewController.h; sourceTree = SOURCE_ROOT; };
+		3530F82D19DC3F6300450A09 /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AccountViewController.m; path = ScentLane/AccountViewController.m; sourceTree = SOURCE_ROOT; };
+		3530F82E19DC3F6300450A09 /* AddTrailItemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddTrailItemController.h; path = ScentLane/AddTrailItemController.h; sourceTree = SOURCE_ROOT; };
+		3530F82F19DC3F6300450A09 /* AddTrailItemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddTrailItemController.m; path = ScentLane/AddTrailItemController.m; sourceTree = SOURCE_ROOT; };
+		3530F83019DC3F6300450A09 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ScentLane/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		3530F83119DC3F6300450A09 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ScentLane/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		3530F83419DC3F6300450A09 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ScentLane/LoginViewController.h; sourceTree = SOURCE_ROOT; };
+		3530F83519DC3F6300450A09 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ScentLane/LoginViewController.m; sourceTree = SOURCE_ROOT; };
+		3530F83619DC3F6300450A09 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = ScentLane/MapViewController.h; sourceTree = SOURCE_ROOT; };
+		3530F83719DC3F6300450A09 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = ScentLane/MapViewController.m; sourceTree = SOURCE_ROOT; };
+		3530F83819DC3F6300450A09 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuViewController.h; path = ScentLane/MenuViewController.h; sourceTree = SOURCE_ROOT; };
+		3530F83919DC3F6300450A09 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = ScentLane/MenuViewController.m; sourceTree = SOURCE_ROOT; };
+		3530F83A19DC3F6300450A09 /* TrailItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrailItem.h; path = ScentLane/TrailItem.h; sourceTree = SOURCE_ROOT; };
+		3530F83B19DC3F6300450A09 /* TrailItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrailItem.m; path = ScentLane/TrailItem.m; sourceTree = SOURCE_ROOT; };
+		3530F83E19DC3F6300450A09 /* TrailListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrailListController.h; path = ScentLane/TrailListController.h; sourceTree = SOURCE_ROOT; };
+		3530F83F19DC3F6300450A09 /* TrailListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrailListController.m; path = ScentLane/TrailListController.m; sourceTree = SOURCE_ROOT; };
+		3530F84B19DC3FAB00450A09 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = "ScentLane/en.lproj/MainStoryboard-iPad.storyboard"; sourceTree = SOURCE_ROOT; };
+		3530F84D19DC3FAB00450A09 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = ScentLane/en.lproj/MainStoryboard.storyboard; sourceTree = SOURCE_ROOT; };
+		3530F85019DC3FC600450A09 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default.png; path = ScentLane/default.png; sourceTree = SOURCE_ROOT; };
+		3530F85119DC3FC600450A09 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "ScentLane/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		3530F85219DC3FC600450A09 /* default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "default@2x.png"; path = "ScentLane/default@2x.png"; sourceTree = SOURCE_ROOT; };
+		3530F85619DC3FD600450A09 /* point_marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = point_marker.png; path = ScentLane/point_marker.png; sourceTree = SOURCE_ROOT; };
+		3530F85719DC3FD600450A09 /* point_marker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "point_marker@2x.png"; path = "ScentLane/point_marker@2x.png"; sourceTree = SOURCE_ROOT; };
+		3530F85819DC3FD600450A09 /* reveal-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "reveal-icon.png"; path = "ScentLane/reveal-icon.png"; sourceTree = SOURCE_ROOT; };
+		3530F85919DC3FD600450A09 /* reveal-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "reveal-icon@2x.png"; path = "ScentLane/reveal-icon@2x.png"; sourceTree = SOURCE_ROOT; };
+		3530F85E19DC3FE700450A09 /* ScentLane-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ScentLane-Prefix.pch"; path = "ScentLane/ScentLane-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		3563AFC819EEA026008E02ED /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow.png; path = ScentLane/arrow.png; sourceTree = SOURCE_ROOT; };
+		3563AFCA19EEA04B008E02ED /* backgroundlogin.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = backgroundlogin.gif; path = ScentLane/backgroundlogin.gif; sourceTree = SOURCE_ROOT; };
+		3563AFCC19EECAE0008E02ED /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		35B6C55B19DAF54600340B9D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ScentLane/Images.xcassets; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -89,6 +100,7 @@
 				01FB866A169E2D8B00A0A1A8 /* UIKit.framework in Frameworks */,
 				01FB866C169E2D8B00A0A1A8 /* Foundation.framework in Frameworks */,
 				01FB866E169E2D8B00A0A1A8 /* CoreGraphics.framework in Frameworks */,
+				3563AFCD19EECAE0008E02ED /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +128,7 @@
 		01FB8668169E2D8B00A0A1A8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3563AFCC19EECAE0008E02ED /* FacebookSDK.framework */,
 				35167ACA19D41DF2002B75B8 /* CoreLocation.framework */,
 				01FB86AF169E42B600A0A1A8 /* MapKit.framework */,
 				01FB8669169E2D8B00A0A1A8 /* UIKit.framework */,
@@ -128,13 +141,14 @@
 		01FB866F169E2D8B00A0A1A8 /* ScentLane */ = {
 			isa = PBXGroup;
 			children = (
-				358FBB8619DC1E2F006CAC22 /* MainStoryboard.storyboard */,
-				358FBB6B19DC1D83006CAC22 /* AppDelegate.h */,
-				358FBB6C19DC1D83006CAC22 /* AppDelegate.m */,
-				358FBB7B19DC1DBB006CAC22 /* TrailItem.h */,
-				358FBB7C19DC1DBB006CAC22 /* TrailItem.m */,
+				3530F84C19DC3FAB00450A09 /* MainStoryboard.storyboard */,
+				3530F83019DC3F6300450A09 /* AppDelegate.h */,
+				3530F83119DC3F6300450A09 /* AppDelegate.m */,
+				3530F83A19DC3F6300450A09 /* TrailItem.h */,
+				3530F83B19DC3F6300450A09 /* TrailItem.m */,
+				35B6C55B19DAF54600340B9D /* Images.xcassets */,
 				91090B7A1790ED0B0090B501 /* iPad */,
-				3556235619DC31F8003CCA88 /* ViewController */,
+				3506166F19DC47DF00D65938 /* Controller */,
 				01FB8670169E2D8B00A0A1A8 /* Supporting Files */,
 			);
 			name = ScentLane;
@@ -144,19 +158,20 @@
 		01FB8670169E2D8B00A0A1A8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				35B6C55B19DAF54600340B9D /* Images.xcassets */,
-				3556233B19DC1E51003CCA88 /* ScentLane-Prefix.pch */,
-				3556233C19DC1E68003CCA88 /* InfoPlist.strings */,
-				3556233F19DC1E70003CCA88 /* ScentLane-Info.plist */,
-				3556234119DC1E82003CCA88 /* point_marker.png */,
-				3556234219DC1E82003CCA88 /* point_marker@2x.png */,
-				3556234519DC1E94003CCA88 /* default.png */,
-				3556234619DC1E94003CCA88 /* Default-568h@2x.png */,
-				3556234719DC1E94003CCA88 /* default@2x.png */,
-				3556234F19DC1EBD003CCA88 /* reveal-icon.png */,
-				3556235019DC1EBD003CCA88 /* reveal-icon@2x.png */,
-				3556234B19DC1E9F003CCA88 /* black.png */,
-				3556234D19DC1EA9003CCA88 /* main.m */,
+				3563AFCA19EEA04B008E02ED /* backgroundlogin.gif */,
+				3530F85019DC3FC600450A09 /* default.png */,
+				3530F85119DC3FC600450A09 /* Default-568h@2x.png */,
+				3530F85219DC3FC600450A09 /* default@2x.png */,
+				3530F85619DC3FD600450A09 /* point_marker.png */,
+				3530F85719DC3FD600450A09 /* point_marker@2x.png */,
+				3530F85819DC3FD600450A09 /* reveal-icon.png */,
+				3530F85919DC3FD600450A09 /* reveal-icon@2x.png */,
+				3563AFC819EEA026008E02ED /* arrow.png */,
+				3530F85E19DC3FE700450A09 /* ScentLane-Prefix.pch */,
+				3506166619DC401C00D65938 /* black.png */,
+				3506166819DC402700D65938 /* ScentLane-Info.plist */,
+				3506166A19DC403200D65938 /* main.m */,
+				3506166C19DC404800D65938 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -171,29 +186,33 @@
 			path = ../SWRevealViewController;
 			sourceTree = "<group>";
 		};
-		3556235619DC31F8003CCA88 /* ViewController */ = {
+		3506166F19DC47DF00D65938 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				358FBB6919DC1D83006CAC22 /* AddTrailItemController.h */,
-				358FBB6A19DC1D83006CAC22 /* AddTrailItemController.m */,
-				358FBB6F19DC1D83006CAC22 /* LoginViewController.h */,
-				358FBB7019DC1D83006CAC22 /* LoginViewController.m */,
-				358FBB7119DC1D83006CAC22 /* MapViewController.h */,
-				358FBB7219DC1D83006CAC22 /* MapViewController.m */,
-				358FBB7319DC1D83006CAC22 /* MenuViewController.h */,
-				358FBB7419DC1D83006CAC22 /* MenuViewController.m */,
-				358FBB6619DC1D6F006CAC22 /* AccountViewController.h */,
-				358FBB6719DC1D6F006CAC22 /* AccountViewController.m */,
-				358FBB7F19DC1DBB006CAC22 /* TrailListController.h */,
-				358FBB8019DC1DBB006CAC22 /* TrailListController.m */,
+				3530F82C19DC3F6300450A09 /* AccountViewController.h */,
+				3530F82D19DC3F6300450A09 /* AccountViewController.m */,
+				3530F82E19DC3F6300450A09 /* AddTrailItemController.h */,
+				3530F82F19DC3F6300450A09 /* AddTrailItemController.m */,
+				3530F83419DC3F6300450A09 /* LoginViewController.h */,
+				3530F83519DC3F6300450A09 /* LoginViewController.m */,
+				3530F83619DC3F6300450A09 /* MapViewController.h */,
+				3530F83719DC3F6300450A09 /* MapViewController.m */,
+				3530F83819DC3F6300450A09 /* MenuViewController.h */,
+				3530F83919DC3F6300450A09 /* MenuViewController.m */,
+				3530F83E19DC3F6300450A09 /* TrailListController.h */,
+				3530F83F19DC3F6300450A09 /* TrailListController.m */,
+				350AB8BB19F51F4A001938F6 /* WeatherViewController.h */,
+				350AB8BC19F51F4A001938F6 /* WeatherViewController.m */,
+				3500D1EF19F800A700F74ABC /* StartViewController.h */,
+				3500D1F019F800A700F74ABC /* StartViewController.m */,
 			);
-			name = ViewController;
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		91090B7A1790ED0B0090B501 /* iPad */ = {
 			isa = PBXGroup;
 			children = (
-				358FBB8419DC1E2F006CAC22 /* MainStoryboard-iPad.storyboard */,
+				3530F84A19DC3FAB00450A09 /* MainStoryboard-iPad.storyboard */,
 			);
 			name = iPad;
 			sourceTree = "<group>";
@@ -224,7 +243,7 @@
 		01FB865C169E2D8B00A0A1A8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Steckler;
 				TargetAttributes = {
 					01FB8664169E2D8B00A0A1A8 = {
@@ -254,24 +273,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
-				3556234C19DC1E9F003CCA88 /* black.png in Resources */,
-				3556234319DC1E82003CCA88 /* point_marker.png in Resources */,
-				358FBB8819DC1E2F006CAC22 /* MainStoryboard-iPad.storyboard in Resources */,
-				3556234419DC1E82003CCA88 /* point_marker@2x.png in Resources */,
-				3556234819DC1E94003CCA88 /* default.png in Resources */,
-				3556234A19DC1E94003CCA88 /* default@2x.png in Resources */,
-				3556234919DC1E94003CCA88 /* Default-568h@2x.png in Resources */,
-				3556235219DC1EBD003CCA88 /* reveal-icon@2x.png in Resources */,
-				3556233E19DC1E68003CCA88 /* InfoPlist.strings in Resources */,
-				3556234019DC1E70003CCA88 /* ScentLane-Info.plist in Resources */,
-=======
-				4EE9024B1964A28600AA3B42 /* Default.png in Resources */,
-				4EE902461964A27600AA3B42 /* reveal-icon.png in Resources */,
->>>>>>> FETCH_HEAD
+				3506166719DC401C00D65938 /* black.png in Resources */,
+				3530F85519DC3FC600450A09 /* default@2x.png in Resources */,
+				3530F84E19DC3FAB00450A09 /* MainStoryboard-iPad.storyboard in Resources */,
+				3506166E19DC404800D65938 /* InfoPlist.strings in Resources */,
 				35B6C55C19DAF54600340B9D /* Images.xcassets in Resources */,
-				358FBB8919DC1E2F006CAC22 /* MainStoryboard.storyboard in Resources */,
-				3556235119DC1EBD003CCA88 /* reveal-icon.png in Resources */,
+				3530F85D19DC3FD600450A09 /* reveal-icon@2x.png in Resources */,
+				3563AFCB19EEA04B008E02ED /* backgroundlogin.gif in Resources */,
+				3563AFC919EEA026008E02ED /* arrow.png in Resources */,
+				3530F85C19DC3FD600450A09 /* reveal-icon.png in Resources */,
+				3530F85419DC3FC600450A09 /* Default-568h@2x.png in Resources */,
+				3530F84F19DC3FAB00450A09 /* MainStoryboard.storyboard in Resources */,
+				3530F85319DC3FC600450A09 /* default.png in Resources */,
+				3530F85A19DC3FD600450A09 /* point_marker.png in Resources */,
+				3530F85B19DC3FD600450A09 /* point_marker@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,42 +297,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3556234E19DC1EA9003CCA88 /* main.m in Sources */,
-				358FBB7A19DC1D83006CAC22 /* MenuViewController.m in Sources */,
-				358FBB7519DC1D83006CAC22 /* AddTrailItemController.m in Sources */,
-				358FBB8319DC1DBB006CAC22 /* TrailListController.m in Sources */,
+				3530F84919DC3F6300450A09 /* TrailListController.m in Sources */,
+				3530F84519DC3F6300450A09 /* MapViewController.m in Sources */,
+				350AB8BD19F51F4A001938F6 /* WeatherViewController.m in Sources */,
+				3530F84619DC3F6300450A09 /* MenuViewController.m in Sources */,
 				01FB868F169E2DA500A0A1A8 /* SWRevealViewController.m in Sources */,
-				358FBB7619DC1D83006CAC22 /* AppDelegate.m in Sources */,
-				358FBB7819DC1D83006CAC22 /* LoginViewController.m in Sources */,
-				358FBB7919DC1D83006CAC22 /* MapViewController.m in Sources */,
-				358FBB6819DC1D6F006CAC22 /* AccountViewController.m in Sources */,
-				358FBB8119DC1DBB006CAC22 /* TrailItem.m in Sources */,
+				3530F84419DC3F6300450A09 /* LoginViewController.m in Sources */,
+				3530F84119DC3F6300450A09 /* AddTrailItemController.m in Sources */,
+				3530F84719DC3F6300450A09 /* TrailItem.m in Sources */,
+				3530F84019DC3F6300450A09 /* AccountViewController.m in Sources */,
+				3500D1F119F800A700F74ABC /* StartViewController.m in Sources */,
+				3506166B19DC403200D65938 /* main.m in Sources */,
+				3530F84219DC3F6300450A09 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3556233C19DC1E68003CCA88 /* InfoPlist.strings */ = {
+		3506166C19DC404800D65938 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3556233D19DC1E68003CCA88 /* en */,
+				3506166D19DC404800D65938 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		358FBB8419DC1E2F006CAC22 /* MainStoryboard-iPad.storyboard */ = {
+		3530F84A19DC3FAB00450A09 /* MainStoryboard-iPad.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				358FBB8519DC1E2F006CAC22 /* en */,
+				3530F84B19DC3FAB00450A09 /* en */,
 			);
 			name = "MainStoryboard-iPad.storyboard";
 			sourceTree = "<group>";
 		};
-		358FBB8619DC1E2F006CAC22 /* MainStoryboard.storyboard */ = {
+		3530F84C19DC3FAB00450A09 /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				358FBB8719DC1E2F006CAC22 /* en */,
+				3530F84D19DC3FAB00450A09 /* en */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
@@ -347,10 +364,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/ScentLane/ScentLane-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
-				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -370,10 +385,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/ScentLane/ScentLane-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -385,11 +398,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "\"/Users/lukaswinkler/Documents/FacebookSDK\"";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ScentLane/ScentLane-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/ScentLane/ScentLane-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
 				PRODUCT_NAME = ScentLane;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -402,11 +415,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "\"/Users/lukaswinkler/Documents/FacebookSDK\"";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ScentLane/ScentLane-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/ScentLane/ScentLane-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
 				PRODUCT_NAME = ScentLane;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;

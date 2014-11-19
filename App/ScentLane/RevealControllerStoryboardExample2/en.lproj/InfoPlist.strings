@@ -1,5 +1,0 @@
-/* Localized versions of Info.plist keys */
-
-"NSLocationWhenInUseUsageDescription" = "ScentLane möchte deinen aktuellen Standort anzeigen.";
-
-"NSLocationAlwaysUsageDescription" = "ScentLane benötigt Zugriff auf deinen Standort, um alle Funktionen zu unterstützen.";

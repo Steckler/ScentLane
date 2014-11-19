@@ -9,6 +9,7 @@
 #import "MenuViewController.h"
 #import "AccountViewController.h"
 #import "TrailListController.h"
+#import "WeatherViewController.h"
 
 @implementation SWUITableViewCell
 @end
@@ -18,17 +19,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor colorWithWhite:0.3f alpha:1.0f];
-    self.tableView.backgroundColor = [UIColor colorWithWhite:0.4f alpha:1.0f];
+    self.view.backgroundColor = [UIColor whiteColor];
     
+}
+
+-(UIStatusBarStyle)preferredStatusBarStyle{
+    return UIStatusBarStyleDefault;
 }
 
 #pragma mark - Table view data source
 
-- (UIStatusBarStyle)preferredStatusBarStyle
-{
-    return UIStatusBarStyleLightContent;
-}
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
@@ -37,7 +37,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 4;
+    return 5;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -56,11 +56,15 @@
             break;
 
         case 2:
-            CellIdentifier = @"red";
+            CellIdentifier = @"trail";
             break;
             
         case 3:
-            CellIdentifier = @"blue";
+            CellIdentifier = @"account";
+            break;
+            
+        case 4:
+            CellIdentifier = @"weather";
             break;
     }
 
