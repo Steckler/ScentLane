@@ -28,7 +28,6 @@
 		3530F84919DC3F6300450A09 /* TrailListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3530F83F19DC3F6300450A09 /* TrailListController.m */; };
 		3530F84E19DC3FAB00450A09 /* MainStoryboard-iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3530F84A19DC3FAB00450A09 /* MainStoryboard-iPad.storyboard */; };
 		3530F84F19DC3FAB00450A09 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3530F84C19DC3FAB00450A09 /* MainStoryboard.storyboard */; };
-		3530F85319DC3FC600450A09 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3530F85019DC3FC600450A09 /* default.png */; };
 		3530F85419DC3FC600450A09 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3530F85119DC3FC600450A09 /* Default-568h@2x.png */; };
 		3530F85519DC3FC600450A09 /* default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3530F85219DC3FC600450A09 /* default@2x.png */; };
 		3530F85A19DC3FD600450A09 /* point_marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 3530F85619DC3FD600450A09 /* point_marker.png */; };
@@ -39,6 +38,8 @@
 		3563AFCB19EEA04B008E02ED /* backgroundlogin.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3563AFCA19EEA04B008E02ED /* backgroundlogin.gif */; };
 		3563AFCD19EECAE0008E02ED /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3563AFCC19EECAE0008E02ED /* FacebookSDK.framework */; };
 		35B6C55C19DAF54600340B9D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35B6C55B19DAF54600340B9D /* Images.xcassets */; };
+		35FE5EF51A1CD48D0063D3B9 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 35FE5EF41A1CD48D0063D3B9 /* default.png */; };
+		35FE5EF71A1CD5DD0063D3B9 /* blurredLoginPic.png in Resources */ = {isa = PBXBuildFile; fileRef = 35FE5EF61A1CD5DD0063D3B9 /* blurredLoginPic.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,7 +77,6 @@
 		3530F83F19DC3F6300450A09 /* TrailListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrailListController.m; path = ScentLane/TrailListController.m; sourceTree = SOURCE_ROOT; };
 		3530F84B19DC3FAB00450A09 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = "ScentLane/en.lproj/MainStoryboard-iPad.storyboard"; sourceTree = SOURCE_ROOT; };
 		3530F84D19DC3FAB00450A09 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = ScentLane/en.lproj/MainStoryboard.storyboard; sourceTree = SOURCE_ROOT; };
-		3530F85019DC3FC600450A09 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default.png; path = ScentLane/default.png; sourceTree = SOURCE_ROOT; };
 		3530F85119DC3FC600450A09 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "ScentLane/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
 		3530F85219DC3FC600450A09 /* default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "default@2x.png"; path = "ScentLane/default@2x.png"; sourceTree = SOURCE_ROOT; };
 		3530F85619DC3FD600450A09 /* point_marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = point_marker.png; path = ScentLane/point_marker.png; sourceTree = SOURCE_ROOT; };
@@ -88,6 +88,8 @@
 		3563AFCA19EEA04B008E02ED /* backgroundlogin.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = backgroundlogin.gif; path = ScentLane/backgroundlogin.gif; sourceTree = SOURCE_ROOT; };
 		3563AFCC19EECAE0008E02ED /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		35B6C55B19DAF54600340B9D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ScentLane/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		35FE5EF41A1CD48D0063D3B9 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default.png; path = ScentLane/default.png; sourceTree = SOURCE_ROOT; };
+		35FE5EF61A1CD5DD0063D3B9 /* blurredLoginPic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blurredLoginPic.png; path = ScentLane/blurredLoginPic.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,9 +161,10 @@
 			isa = PBXGroup;
 			children = (
 				3563AFCA19EEA04B008E02ED /* backgroundlogin.gif */,
-				3530F85019DC3FC600450A09 /* default.png */,
 				3530F85119DC3FC600450A09 /* Default-568h@2x.png */,
 				3530F85219DC3FC600450A09 /* default@2x.png */,
+				35FE5EF41A1CD48D0063D3B9 /* default.png */,
+				35FE5EF61A1CD5DD0063D3B9 /* blurredLoginPic.png */,
 				3530F85619DC3FD600450A09 /* point_marker.png */,
 				3530F85719DC3FD600450A09 /* point_marker@2x.png */,
 				3530F85819DC3FD600450A09 /* reveal-icon.png */,
@@ -282,9 +285,10 @@
 				3563AFCB19EEA04B008E02ED /* backgroundlogin.gif in Resources */,
 				3563AFC919EEA026008E02ED /* arrow.png in Resources */,
 				3530F85C19DC3FD600450A09 /* reveal-icon.png in Resources */,
+				35FE5EF71A1CD5DD0063D3B9 /* blurredLoginPic.png in Resources */,
+				35FE5EF51A1CD48D0063D3B9 /* default.png in Resources */,
 				3530F85419DC3FC600450A09 /* Default-568h@2x.png in Resources */,
 				3530F84F19DC3FAB00450A09 /* MainStoryboard.storyboard in Resources */,
-				3530F85319DC3FC600450A09 /* default.png in Resources */,
 				3530F85A19DC3FD600450A09 /* point_marker.png in Resources */,
 				3530F85B19DC3FD600450A09 /* point_marker@2x.png in Resources */,
 			);

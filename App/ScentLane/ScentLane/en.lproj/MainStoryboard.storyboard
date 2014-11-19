@@ -41,7 +41,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default.png" id="8Ep-72-hfl">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blurredLoginPic.png" id="8Ep-72-hfl">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -675,6 +675,7 @@
     <resources>
         <image name="arrow.png" width="31" height="30"/>
         <image name="backgroundlogin.gif" width="411" height="389"/>
+        <image name="blurredLoginPic.png" width="320" height="480"/>
         <image name="default.png" width="320" height="480"/>
         <image name="point_marker.png" width="22" height="22"/>
         <image name="reveal-icon.png" width="22" height="17"/>
@@ -685,7 +686,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="OE9-CE-qWx"/>
-        <segue reference="UnB-nC-DWJ"/>
+        <segue reference="FUq-8I-Khl"/>
+        <segue reference="bla-Jd-Bu2"/>
     </inferredMetricsTieBreakers>
 </document>
