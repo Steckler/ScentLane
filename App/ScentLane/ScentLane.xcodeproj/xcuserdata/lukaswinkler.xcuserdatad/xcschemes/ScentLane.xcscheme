@@ -14,9 +14,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "01FB8664169E2D8B00A0A1A8"
+               BlueprintIdentifier = "35B78A0D1A2F882000C04018"
                BuildableName = "ScentLane.app"
                BlueprintName = "ScentLane"
+               ReferencedContainer = "container:ScentLane.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "35B78A2C1A2F882000C04018"
+               BuildableName = "ScentLaneTests.xctest"
+               BlueprintName = "ScentLaneTests"
                ReferencedContainer = "container:ScentLane.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,11 +42,21 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "35B78A2C1A2F882000C04018"
+               BuildableName = "ScentLaneTests.xctest"
+               BlueprintName = "ScentLaneTests"
+               ReferencedContainer = "container:ScentLane.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "01FB8664169E2D8B00A0A1A8"
+            BlueprintIdentifier = "35B78A0D1A2F882000C04018"
             BuildableName = "ScentLane.app"
             BlueprintName = "ScentLane"
             ReferencedContainer = "container:ScentLane.xcodeproj">
@@ -51,7 +75,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "01FB8664169E2D8B00A0A1A8"
+            BlueprintIdentifier = "35B78A0D1A2F882000C04018"
             BuildableName = "ScentLane.app"
             BlueprintName = "ScentLane"
             ReferencedContainer = "container:ScentLane.xcodeproj">
@@ -69,7 +93,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "01FB8664169E2D8B00A0A1A8"
+            BlueprintIdentifier = "35B78A0D1A2F882000C04018"
             BuildableName = "ScentLane.app"
             BlueprintName = "ScentLane"
             ReferencedContainer = "container:ScentLane.xcodeproj">
